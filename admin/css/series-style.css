@@ -1,0 +1,64 @@
+.series_video_thumb
+{
+	height: 50px;
+	width: 50px;
+	background-color: #333;
+	position: relative;
+}
+
+.series_video_thumb img
+{
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-ms-transform:translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.krono_series_list_tbl th {
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 30px;
+}
+.krono_series_list_tbl
+{
+	text-align: left;
+	background: #fff;
+	width: 100%;
+	
+}
+
+.krono_series_list_tbl tr
+{
+	height: 50px;
+	
+}
+.krono_series_list_tbl tr.even
+{
+	background-color: #ccc;
+}
+.krono_series_list_tbl td
+{
+	padding-left: 5px;
+}
+.krono_series_list_tbl .id_col
+{
+	width: 60px;
+}
+.add_series_div
+{
+	width:100%; height: 100%;
+	background: #fff;
+	padding: 10px;
+}
+.add_series_div table
+{
+	width: 80%;
+}
